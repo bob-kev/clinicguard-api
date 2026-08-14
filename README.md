@@ -21,3 +21,16 @@ clinicguard-api/
 ├── main.py
 ├── requirements.txt
 └── .env
+
+
+Setup & Running
+Install Dependencies:
+
+Bash
+pip install -r requirements.txt
+Start the Server:
+
+Bash
+python -m uvicorn main:app --reload
+Interactive Documentation:
+Access Swagger UI at http://127.0.0.1:8000/docs.
